@@ -18,6 +18,10 @@ public class Main
             {
                 System.out.println("You said your birth month is " + birthMonth);
             }
+            else
+            {
+                System.out.println("Sorry, you entered " + birthMonth + ", which is an invalid birth month");
+            }
         }
         else
         {
